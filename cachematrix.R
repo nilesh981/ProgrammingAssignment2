@@ -13,8 +13,6 @@ makeCacheMatrix <- function(mat = matrix()) {
     return(list(set = set, get = get, setinv = setinv, getinv = getinv))
 }
 
-}
-
 
 ## cacheSolve will calculate the inverse of the matrix.If cacheSolve has computed the inverse, it will retrieve the data
 
